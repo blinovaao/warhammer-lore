@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Главная страница</title>
+    <link href="sass/style.scss" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="favicons/favicon.svg" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="WH40000" />
+    <link rel="preload" href="fonts/Open Sans/OpenSans-Regular.woff2" type="font/woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Bebas Neue/BebasNeueRegular.woff2" type="font/woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Tektur/Tektur-Regular.woff2" type="font/woff2" as="font" crossorigin="anonymous">
+    <link rel="manifest" href="site.webmanifest" />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="main-header__wrapper">
+        <a class="main-header__logo" href="index.html" aria-current="true">
+          <picture>
+            <source media="(min-width: 768px)" srcset="img/logo.svg" width="150">
+            <img src="img/logo.svg" width="100" alt="Логотип Вселенной Warhammer.">
+          </picture>
+        </a>
+
+        <nav class="main-header__navigation main-nav">
+          <button class="main-nav__button" type="button">
+            <span class="visually-hidden">Открыть меню.</span>
+          </button>
+
+          <div class="main-nav__inner">
+            <ul class="main-nav__list">
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="#">Примархи</a>
+              </li>
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="#">Легионы</a>
+              </li>
+            </ul>
+          </div >
+        </nav>
+      </div>
+
+    </header>
+
+    <main>
+      <h1 class="visually-hidden">Вселенная Warhammer 40000: Персонажи и Легионы.</h1>
+
+      <section class="hero">
+        <div class="hero__wrapper">
+          <div class="hero__slider hero-slider">
+            <ul class="hero-slider__list">
+              <li class="hero-slider__item hero-slide hero-slide--active">
+                <img class="hero-slide__image" src="img/hero-1.jpg" alt="">
+              </li>
+              <li class="hero-slider__item hero-slide">
+                <img class="hero-slide__image" src="img/hero-2.jpg" alt="">
+              </li>
+              <li class="hero-slider__item hero-slide">
+                <img class="hero-slide__image" src="img/hero-3.jpg" alt="">
+              </li>
+              <li class="hero-slider__item hero-slide">
+                <img class="hero-slide__image" src="img/hero-4.jpg" alt="">
+              </li>
+            </ul>
+          </div>
+
+          <div class="hero__inner">
+            <h2 class="hero__title">Добро пожаловать в&nbsp;Империум Человечества!</h2>
+            <p class="hero__text">Ты вступил в&nbsp;мир, где нет пощады. Здесь миллиарды жизней приносятся во&nbsp;имя Императора, а сама Галактика стонет под&nbsp;грохотом Вечной Войны.</p>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+
+    <footer></footer>
+
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>

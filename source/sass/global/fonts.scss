@@ -1,0 +1,42 @@
+@include font-face("Roboto", 100, normal, url("/fonts/Roboto/Roboto-Thin.woff2") format("woff2"));
+@include font-face("Roboto", 300, normal, url("/fonts/Roboto/Roboto-Light.woff2") format("woff2"));
+@include font-face("Roboto", 400, normal, url("/fonts/Roboto/Roboto-Regular.woff2") format("woff2"));
+@include font-face("Roboto", 500, normal, url("/fonts/Roboto/Roboto-Medium.woff2") format("woff2"));
+@include font-face("Roboto", 700, normal, url("/fonts/Roboto/Roboto-Bold.woff2") format("woff2"));
+@include font-face("Roboto", 900, normal, url("/fonts/Roboto/Roboto-Black.woff2") format("woff2"));
+
+@include font-face("Open Sans", 300, normal, url("/fonts/OpenSans/OpenSans-Light.woff2") format("woff2"));
+@include font-face("Open Sans", 400, normal, url("/fonts/OpenSans/OpenSans-Regular.woff2") format("woff2"));
+@include font-face("Open Sans", 600, normal, url("/fonts/OpenSans/OpenSans-SemiBold.woff2") format("woff2"));
+@include font-face("Open Sans", 700, normal, url("/fonts/OpenSans/OpenSans-Bold.woff2") format("woff2"));
+@include font-face("Open Sans", 800, normal, url("/fonts/OpenSans/OpenSans-ExtraBold.woff2") format("woff2"));
+
+@include font-face("Greenth", 400, normal, url("/fonts/Greenth/GreenthRegular.woff2") format("woff2"));
+
+@include font-face("Bebas Neue", 100, normal, url("/fonts/Bebas Neue/BebasNeueThin.woff2") format("woff2"));
+@include font-face("Bebas Neue", 300, normal, url("/fonts/Bebas Neue/BebasNeueLight.woff2") format("woff2"));
+@include font-face("Bebas Neue", 400, normal, url("/fonts/Bebas Neue/BebasNeueRegular.woff2") format("woff2"));
+@include font-face("Bebas Neue", 700, normal, url("/fonts/Bebas Neue/BebasNeueBold.woff2") format("woff2"));
+
+@include font-face("Tektur", 400, normal, url("/fonts/Tektur/Tektur-Regular.woff2") format("woff2"));
+@include font-face("Tektur", 500, normal, url("/fonts/Tektur/Tektur-Medium.woff2") format("woff2"));
+@include font-face("Tektur", 600, normal, url("/fonts/Tektur/Tektur-SemiBold.woff2") format("woff2"));
+@include font-face("Tektur", 700, normal, url("/fonts/Tektur/Tektur-Bold.woff2") format("woff2"));
+@include font-face("Tektur", 800, normal, url("/fonts/Tektur/Tektur-ExtraBold.woff2") format("woff2"));
+@include font-face("Tektur", 900, normal, url("/fonts/Tektur/Tektur-Black.woff2") format("woff2"));
+
+$primary-font: "Open Sans", sans-serif;
+$font-greenth: "Greenth", sans-serif;
+$font-bebas-neue: "Bebas Neue", sans-serif;
+$font-tektur: "Tektur", sans-serif;
+
+/*
+  🔤 Рекомендованные размеры для твоих шрифтов (Orbitron, Bebas Neue, Roboto)
+        Элемент	              Мобильный	Планшет	Десктоп
+  Логотип (Orbitron)	          18–20px	22–24px	26–30px
+  Пункты меню (Bebas Neue)	      14px	16–18px	18–20px
+  CTA-кнопка (Bebas Neue)	        14px	  16px	  18px
+  Основной текст (Roboto)	      15–16px	16–17px	17–18px
+  Заголовки секций (Bebas Neue)	20–24px	26–30px	32–40px
+  Подписи, второстепенный текст	12–13px	13–14px	14–15px
+*/
