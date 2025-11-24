@@ -9,9 +9,12 @@
     <link rel="shortcut icon" href="/warhammer-lore/assets/favicon-D73FxpAi.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="/warhammer-lore/assets/apple-touch-icon-DxqxnCmN.png" />
     <meta name="apple-mobile-web-app-title" content="WH40000" />
+    <link rel="preload" href="/warhammer-lore/assets/OpenSans-Regular-N6ipOEWl.woff2" type="font/woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="/warhammer-lore/assets/BebasNeueRegular-D00apsXq.woff2" type="font/woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="/warhammer-lore/assets/Tektur-Regular--zcwFzyt.woff2" type="font/woff2" as="font" crossorigin="anonymous">
     <link rel="manifest" href="/warhammer-lore/assets/site-DOavtQLW.webmanifest" />
-    <script type="module" crossorigin src="/warhammer-lore/assets/index-Ik62PSHQ.js"></script>
-    <link rel="stylesheet" crossorigin href="/warhammer-lore/assets/index-C6NokVFN.css">
+    <script type="module" crossorigin src="/warhammer-lore/assets/index--UICsuvf.js"></script>
+    <link rel="stylesheet" crossorigin href="/warhammer-lore/assets/index-CmtNK6Rl.css">
   </head>
   <body>
     <header class="main-header">
@@ -54,7 +57,7 @@
                 <img class="hero-slide__image" src="/warhammer-lore/assets/hero-1-CEPI5D7D.jpg" alt="">
               </li>
               <li class="hero-slider__item hero-slide">
-                <img class="hero-slide__image" src="/warhammer-lore/assets/hero-2-C2DXG0mn.jpg" alt="">
+                <img class="hero-slide__image" src="/warhammer-lore/assets/hero-2-lCLi3cdr.jpg" alt="">
               </li>
               <li class="hero-slider__item hero-slide">
                 <img class="hero-slide__image" src="/warhammer-lore/assets/hero-3-BBrwbW_b.jpg" alt="">
@@ -73,9 +76,44 @@
         </div>
       </section>
 
+      <section class="characters">
+        <div class="characters__wrapper">
+          <h2 class="visually-hidden">Персонажи Империума.</h2>
+
+          <div class="characters__inner wh-persons">
+            <div class="wh-persons--emperor">
+              <div class="wh-person wh-person--emperor"></div>
+            </div>
+
+            <div class="wh-persons--loyal">
+              <ul class="wh-persons__list wh-persons__list--loyal">
+
+              </ul>
+            </div>
+            
+            <div class="wh-persons--fallen">
+              <ul class="wh-persons__list wh-persons__list--fallen">
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
     </main>
 
     <footer></footer>
+
+    <!-- Шаблон карточки персонажа -->
+    <template id="character">
+      <img class="wh-person__image" src="" alt="">
+      <div class="wh-person__inner">
+        <a class="wh-person__link">
+          <h3 class="wh-person__name"></h3>
+        </a>
+        <p class="wh-person__description"></p>
+      </div>
+    </template>
 
   </body>
 </html>
